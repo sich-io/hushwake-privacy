@@ -150,9 +150,11 @@ not a defect and not something we can fix: iOS shuts down an app's haptic engine
 leaves the screen. Hushwake is designed around that — it stays open as a dim bedside clock, and
 that is exactly what lets it play a real, app-shaped wave instead of a generic buzz.</p>
 <p>So: plug the phone in, leave Hushwake open on screen, and put it where you will feel it. If
-the app is closed or the phone restarts before your wake-up time, a <strong>backup
-notification</strong> sounds instead, provided you allowed notifications and have not turned the
-backup off.</p>
+the app is closed or the phone restarts before your wake-up time, <strong>backup
+notifications</strong> take over instead, provided you allowed notifications and have not turned the
+backup off. They buzz silently for the first couple of minutes and only then add sound, so the
+backup keeps the promise as long as it can — but does not stay quiet to the point of failing
+quietly.</p>
 <p><strong>Try it before you depend on it.</strong> As with any alarm on any phone, do not make
 Hushwake your only alarm for something you cannot miss — a flight, an exam — until you have
 woken up with it a few times and know it works for you.</p>
@@ -208,8 +210,9 @@ Apple is a third-party beneficiary of these terms and may enforce them.</p>
 <p>Almost always this means the app was not on screen. The wave plays only while Hushwake is
 open — iOS shuts down an app's haptic engine when the app leaves the screen. Leave the app on the night
 screen, with the phone plugged in.</p>
-<p>Turn on <strong>Wake me anyway</strong> in Settings and allow notifications, so that a backup
-sounds if the app does get closed.</p>
+<p>Turn on <strong>Wake me anyway</strong> in Settings and allow notifications, so that backup
+notifications take over if the app does get closed. They start as a silent buzz and add sound only
+if you are still asleep.</p>
 
 <h2>Why does the app have to stay open?</h2>
 <p>Because that is what makes the wave possible. An app that is closed can, at best, ask iOS to
@@ -337,7 +340,7 @@ sobald sie den Bildschirm verlässt. Hushwake ist genau darum herum gebaut — d
 gedimmte Nachtuhr offen, und eben das erlaubt ihr, eine echte, selbst geformte Welle zu spielen
 statt eines Standard-Brummens.</p>
 <p>Also: Telefon laden, Hushwake offen lassen und so hinlegen, dass du die Vibration spürst. Ist
-die App geschlossen oder startet das Telefon vor der Weckzeit neu, ertönt stattdessen eine
+die App geschlossen oder startet das Telefon vor der Weckzeit neu, übernehmen stattdessen
 <strong>Ersatz-Mitteilung</strong> — sofern du Mitteilungen erlaubt und die Absicherung nicht
 abgeschaltet hast.</p>
 <p><strong>Probiere es aus, bevor du dich darauf verlässt.</strong> Wie bei jedem Wecker auf
@@ -396,7 +399,8 @@ leisten. Apple ist begünstigter Dritter dieser Bedingungen und kann sie durchse
 Hushwake offen ist — iOS fährt die Haptik-Engine einer App herunter, sobald sie den Bildschirm verlässt. Lass die App auf dem
 Nachtbildschirm, das Telefon am Ladekabel.</p>
 <p>Schalte in den Einstellungen <strong>Trotzdem wecken</strong> ein und erlaube Mitteilungen,
-damit eine Absicherung ertönt, falls die App doch geschlossen wird.</p>
+damit Mitteilungen übernehmen, falls die App doch geschlossen wird. Sie vibrieren die ersten
+Minuten lautlos und nehmen erst dann Ton dazu, wenn du noch schläfst.</p>
 
 <h2>Warum muss die App offen bleiben?</h2>
 <p>Weil erst das die Welle möglich macht. Eine geschlossene App kann iOS bestenfalls bitten, eine
@@ -529,7 +533,7 @@ elle reste ouverte en horloge de chevet tamisée, et c’est précisément ce qu
 une vraie vague façonnée par l’app plutôt qu’un bourdonnement générique.</p>
 <p>Donc : branchez le téléphone, laissez Hushwake ouverte et posez-la là où vous sentirez la
 vibration. Si l’app est fermée ou si le téléphone redémarre avant l’heure, une
-<strong>notification de secours</strong> sonne à la place, à condition d’avoir autorisé les
+<strong>notifications de secours</strong> prennent le relais, à condition d’avoir autorisé les
 notifications et de ne pas avoir désactivé le filet.</p>
 <p><strong>Essayez avant d’en dépendre.</strong> Comme pour n’importe quel réveil sur n’importe
 quel téléphone : ne faites pas de Hushwake votre seul réveil pour quelque chose d’essentiel —
@@ -589,7 +593,8 @@ Hushwake. Apple en est tiers bénéficiaire et peut les faire appliquer.</p>
 que Hushwake est ouverte — iOS coupe le moteur haptique d’une app dès qu’elle quitte l’écran. Laissez l’app sur
 l’écran de nuit, téléphone branché.</p>
 <p>Activez <strong>Me réveiller quand même</strong> dans les réglages et autorisez les
-notifications, pour qu’un secours sonne si l’app se ferme quand même.</p>
+notifications, pour que le secours prenne le relais si l’app se ferme quand même. Il commence par
+une vibration silencieuse et n’ajoute le son que si vous dormez encore.</p>
 
 <h2>Pourquoi l’app doit-elle rester ouverte ?</h2>
 <p>Parce que c’est ce qui rend la vague possible. Une app fermée peut au mieux demander à iOS
@@ -721,9 +726,10 @@ de pantalla. Hushwake está construida en torno a eso: se queda abierta como rel
 atenuado, y eso es justo lo que le permite reproducir una ola de verdad, diseñada por la app, en
 lugar de un zumbido genérico.</p>
 <p>Así que: enchufa el teléfono, deja Hushwake abierta y ponla donde notes la vibración. Si la
-app se cierra o el teléfono se reinicia antes de la hora, suena en su lugar una
-<strong>notificación de respaldo</strong>, siempre que hayas permitido las notificaciones y no
-hayas desactivado el respaldo.</p>
+app se cierra o el teléfono se reinicia antes de la hora, toman el relevo las
+<strong>notificaciones de respaldo</strong>, siempre que hayas permitido las notificaciones y no
+hayas desactivado el respaldo. Vibran en silencio los primeros minutos y solo después añaden
+sonido: el respaldo mantiene la promesa mientras puede, sin llegar a fallar en silencio.</p>
 <p><strong>Pruébala antes de depender de ella.</strong> Como con cualquier alarma en cualquier
 teléfono: no hagas de Hushwake tu única alarma para algo que no puedes perder — un vuelo, un
 examen — hasta que te hayas despertado con ella unas cuantas veces.</p>
@@ -780,7 +786,8 @@ tercero beneficiario de estos términos y puede hacerlos valer.</p>
 está abierta: iOS apaga el motor háptico de una app en cuanto sale de pantalla. Deja la app en la pantalla
 nocturna y el teléfono enchufado.</p>
 <p>Activa <strong>Despiértame igualmente</strong> en los ajustes y permite las notificaciones,
-para que suene un respaldo si la app acaba cerrándose.</p>
+para que el respaldo tome el relevo si la app acaba cerrándose. Empieza como vibración silenciosa
+y solo añade sonido si sigues dormido.</p>
 
 <h2>¿Por qué tiene que quedarse abierta la app?</h2>
 <p>Porque es lo que hace posible la ola. Una app cerrada, como mucho, puede pedirle a iOS que
@@ -911,8 +918,9 @@ Hushwake побудований саме навколо цього — він л
 дзижчання.</p>
 <p>Отже: поставте телефон на зарядку, лишіть Hushwake відкритим і покладіть так, щоб відчувати
 вібрацію. Якщо застосунок закрито або телефон перезавантажився до часу підйому, замість хвилі
-пролунає <strong>запасне сповіщення</strong> — за умови, що ви дозволили сповіщення й не
-вимкнули підстраховку.</p>
+естафету переймуть <strong>запасні сповіщення</strong> — за умови, що ви дозволили сповіщення
+й не вимкнули підстраховку. Перші хвилини вони вібрують беззвучно й лише потім додають звук:
+підстраховка тримає обіцянку, поки може, але не мовчить до того, щоб мовчки не спрацювати.</p>
 <p><strong>Спробуйте, перш ніж покладатися.</strong> Як і з будь-яким будильником на будь-якому
 телефоні: не робіть Hushwake єдиним будильником на щось важливе — літак, іспит — доки не
 прокинулися з ним кілька разів.</p>
@@ -969,7 +977,8 @@ Hushwake побудований саме навколо цього — він л
 відкритий — iOS вимикає тактильний рушій застосунку, щойно той залишає екран. Лишайте застосунок на нічному
 екрані, а телефон на зарядці.</p>
 <p>Увімкніть <strong>Розбудити попри все</strong> в налаштуваннях і дозвольте сповіщення, щоб
-підстраховка пролунала, якщо застосунок усе ж закриють.</p>
+підстраховка перейняла естафету, якщо застосунок усе ж закриють. Вона починається беззвучною
+вібрацією й додає звук, лише якщо ви й далі спите.</p>
 
 <h2>Чому застосунок має лишатися відкритим?</h2>
 <p>Бо саме це робить хвилю можливою. Закритий застосунок у кращому разі може попросити iOS
@@ -1097,8 +1106,10 @@ push-сервера, ни токена устройства, и ничто из 
 жужжание.</p>
 <p>Поэтому: поставьте телефон на зарядку, оставьте Hushwake открытым и положите так, чтобы
 чувствовать вибрацию. Если приложение закрыто или телефон перезагрузился до времени подъёма,
-вместо волны прозвучит <strong>запасное уведомление</strong> — при условии, что вы разрешили
-уведомления и не выключили подстраховку.</p>
+эстафету перенимут <strong>запасные уведомления</strong> — при условии, что вы разрешили
+уведомления и не выключили подстраховку. Первые минуты они вибрируют беззвучно и только потом
+добавляют звук: подстраховка держит обещание, пока может, но не молчит до того, чтобы молча
+не сработать.</p>
 <p><strong>Попробуйте, прежде чем полагаться.</strong> Как и с любым будильником на любом
 телефоне: не делайте Hushwake единственным будильником на что-то важное — самолёт, экзамен —
 пока не проснулись с ним несколько раз.</p>
@@ -1155,7 +1166,8 @@ push-сервера, ни токена устройства, и ничто из 
 открыт — iOS выключает тактильный движок приложения, как только оно уходит с экрана. Оставляйте приложение на ночном
 экране, а телефон на зарядке.</p>
 <p>Включите <strong>Разбудить в любом случае</strong> в настройках и разрешите уведомления, чтобы
-подстраховка прозвучала, если приложение всё же закроется.</p>
+подстраховка перехватила эстафету, если приложение всё же закроется. Она начинается беззвучной
+вибрацией и добавляет звук, только если вы всё ещё спите.</p>
 
 <h2>Почему приложение должно оставаться открытым?</h2>
 <p>Потому что именно это делает волну возможной. Закрытое приложение в лучшем случае может
