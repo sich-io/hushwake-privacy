@@ -95,8 +95,8 @@ tracking of any kind. There is no code in the app that sends anything anywhere.<
 
 <h2>Notifications</h2>
 <p>Hushwake asks for permission to send you notifications. It uses that permission for exactly
-one thing: a <strong>backup alarm</strong>. Because iOS does not let any app vibrate from the
-background, Hushwake schedules a few local notifications at your wake-up time in case the app
+one thing: a <strong>backup alarm</strong>. Because iOS shuts down an app's haptic engine when the app
+leaves the screen, Hushwake schedules a few local notifications at your wake-up time in case the app
 is closed and the wave cannot play.</p>
 <p>These notifications are created and delivered <strong>entirely on your iPhone</strong>. There
 is no push server, no device token, and nothing about them reaches us or anyone else. If the app
@@ -146,8 +146,8 @@ will also be noted in the app's release notes.</p>
 
 <h2>How the alarm works — please read this</h2>
 <p>The wake-up wave plays <strong>only while Hushwake is open on your screen</strong>. This is
-not a defect and not something we can fix: iOS does not permit any app to produce haptics from
-the background. Hushwake is designed around that — it stays open as a dim bedside clock, and
+not a defect and not something we can fix: iOS shuts down an app's haptic engine the moment the app
+leaves the screen. Hushwake is designed around that — it stays open as a dim bedside clock, and
 that is exactly what lets it play a real, app-shaped wave instead of a generic buzz.</p>
 <p>So: plug the phone in, leave Hushwake open on screen, and put it where you will feel it. If
 the app is closed or the phone restarts before your wake-up time, a <strong>backup
@@ -206,7 +206,7 @@ Apple is a third-party beneficiary of these terms and may enforce them.</p>
 
 <h2>The alarm didn't go off</h2>
 <p>Almost always this means the app was not on screen. The wave plays only while Hushwake is
-open — iOS does not allow vibration from the background, for any app. Leave the app on the night
+open — iOS shuts down an app's haptic engine when the app leaves the screen. Leave the app on the night
 screen, with the phone plugged in.</p>
 <p>Turn on <strong>Wake me anyway</strong> in Settings and allow notifications, so that a backup
 sounds if the app does get closed.</p>
@@ -280,7 +280,7 @@ Tracking jeglicher Art. Es gibt im Code keine Stelle, die irgendetwas irgendwohi
 
 <h2>Mitteilungen</h2>
 <p>Hushwake bittet um die Erlaubnis für Mitteilungen und nutzt sie für genau eine Sache: einen
-<strong>Ersatzwecker</strong>. Da iOS keiner App erlaubt, aus dem Hintergrund zu vibrieren, plant
+<strong>Ersatzwecker</strong>. Da iOS die Haptik-Engine einer App herunterfährt, sobald sie den Bildschirm verlässt, plant
 Hushwake für deine Weckzeit einige lokale Mitteilungen — für den Fall, dass die App geschlossen
 ist und die Welle nicht spielen kann.</p>
 <p>Diese Mitteilungen entstehen und erscheinen <strong>vollständig auf deinem iPhone</strong>. Es
@@ -332,8 +332,8 @@ zusätzlich in den Versionshinweisen der App.</p>
 
 <h2>Wie der Wecker funktioniert — bitte lesen</h2>
 <p>Die Weckwelle spielt <strong>nur, solange Hushwake auf deinem Bildschirm offen ist</strong>.
-Das ist kein Fehler und nichts, was wir beheben könnten: iOS erlaubt keiner App, aus dem
-Hintergrund Haptik zu erzeugen. Hushwake ist genau darum herum gebaut — die App bleibt als
+Das ist kein Fehler und nichts, was wir beheben könnten: iOS fährt die Haptik-Engine einer App herunter,
+sobald sie den Bildschirm verlässt. Hushwake ist genau darum herum gebaut — die App bleibt als
 gedimmte Nachtuhr offen, und eben das erlaubt ihr, eine echte, selbst geformte Welle zu spielen
 statt eines Standard-Brummens.</p>
 <p>Also: Telefon laden, Hushwake offen lassen und so hinlegen, dass du die Vibration spürst. Ist
@@ -393,7 +393,7 @@ leisten. Apple ist begünstigter Dritter dieser Bedingungen und kann sie durchse
 
 <h2>Der Wecker hat nicht geweckt</h2>
 <p>Fast immer heißt das: Die App war nicht auf dem Bildschirm. Die Welle spielt nur, solange
-Hushwake offen ist — iOS erlaubt keiner App Vibration aus dem Hintergrund. Lass die App auf dem
+Hushwake offen ist — iOS fährt die Haptik-Engine einer App herunter, sobald sie den Bildschirm verlässt. Lass die App auf dem
 Nachtbildschirm, das Telefon am Ladekabel.</p>
 <p>Schalte in den Einstellungen <strong>Trotzdem wecken</strong> ein und erlaube Mitteilungen,
 damit eine Absicherung ertönt, falls die App doch geschlossen wird.</p>
@@ -470,8 +470,8 @@ où que ce soit.</p>
 
 <h2>Notifications</h2>
 <p>Hushwake demande l’autorisation d’envoyer des notifications et s’en sert pour une seule
-chose : un <strong>réveil de secours</strong>. Comme iOS n’autorise aucune app à vibrer en
-arrière-plan, Hushwake programme quelques notifications locales à l’heure de votre réveil, au cas
+chose : un <strong>réveil de secours</strong>. Comme iOS coupe le moteur haptique d’une app dès qu’elle
+quitte l’écran, Hushwake programme quelques notifications locales à l’heure de votre réveil, au cas
 où l’app serait fermée et la vague ne pourrait pas jouer.</p>
 <p>Ces notifications sont créées et délivrées <strong>entièrement sur votre iPhone</strong>. Pas
 de serveur push, pas de jeton d’appareil, et rien de tout cela ne nous parvient ni ne parvient à
@@ -523,8 +523,8 @@ importants figurent aussi dans les notes de version.</p>
 
 <h2>Comment fonctionne le réveil — à lire</h2>
 <p>La vague de réveil ne joue <strong>que tant que Hushwake est ouverte à l’écran</strong>. Ce
-n’est pas un défaut et ce n’est pas quelque chose que nous pouvons corriger : iOS n’autorise
-aucune app à produire des vibrations depuis l’arrière-plan. Hushwake est conçue autour de cela —
+n’est pas un défaut et ce n’est pas quelque chose que nous pouvons corriger : iOS coupe le moteur
+haptique d’une app dès qu’elle quitte l’écran. Hushwake est conçue autour de cela —
 elle reste ouverte en horloge de chevet tamisée, et c’est précisément ce qui lui permet de jouer
 une vraie vague façonnée par l’app plutôt qu’un bourdonnement générique.</p>
 <p>Donc : branchez le téléphone, laissez Hushwake ouverte et posez-la là où vous sentirez la
@@ -586,7 +586,7 @@ Hushwake. Apple en est tiers bénéficiaire et peut les faire appliquer.</p>
 
 <h2>Le réveil n’a pas sonné</h2>
 <p>Presque toujours, cela veut dire que l’app n’était pas à l’écran. La vague ne joue que tant
-que Hushwake est ouverte — iOS n’autorise aucune app à vibrer en arrière-plan. Laissez l’app sur
+que Hushwake est ouverte — iOS coupe le moteur haptique d’une app dès qu’elle quitte l’écran. Laissez l’app sur
 l’écran de nuit, téléphone branché.</p>
 <p>Activez <strong>Me réveiller quand même</strong> dans les réglages et autorisez les
 notifications, pour qu’un secours sonne si l’app se ferme quand même.</p>
@@ -664,7 +664,7 @@ seguimiento de ningún tipo. No hay en el código ni un punto que envíe nada a 
 
 <h2>Notificaciones</h2>
 <p>Hushwake pide permiso para enviarte notificaciones y lo usa para una sola cosa: una
-<strong>alarma de respaldo</strong>. Como iOS no permite que ninguna app vibre en segundo plano,
+<strong>alarma de respaldo</strong>. Como iOS apaga el motor háptico de una app en cuanto sale de pantalla,
 Hushwake programa unas cuantas notificaciones locales a tu hora de despertar, por si la app está
 cerrada y la ola no puede sonar.</p>
 <p>Esas notificaciones se crean y se entregan <strong>íntegramente en tu iPhone</strong>. No hay
@@ -716,8 +716,8 @@ también en las notas de versión.</p>
 
 <h2>Cómo funciona la alarma — léelo</h2>
 <p>La ola de despertar suena <strong>solo mientras Hushwake está abierta en pantalla</strong>. No
-es un defecto ni algo que podamos arreglar: iOS no permite que ninguna app genere vibración desde
-segundo plano. Hushwake está construida en torno a eso: se queda abierta como reloj de mesilla
+es un defecto ni algo que podamos arreglar: iOS apaga el motor háptico de una app en cuanto sale
+de pantalla. Hushwake está construida en torno a eso: se queda abierta como reloj de mesilla
 atenuado, y eso es justo lo que le permite reproducir una ola de verdad, diseñada por la app, en
 lugar de un zumbido genérico.</p>
 <p>Así que: enchufa el teléfono, deja Hushwake abierta y ponla donde notes la vibración. Si la
@@ -777,7 +777,7 @@ tercero beneficiario de estos términos y puede hacerlos valer.</p>
 
 <h2>La alarma no sonó</h2>
 <p>Casi siempre significa que la app no estaba en pantalla. La ola solo suena mientras Hushwake
-está abierta: iOS no permite vibración en segundo plano a ninguna app. Deja la app en la pantalla
+está abierta: iOS apaga el motor háptico de una app en cuanto sale de pantalla. Deja la app en la pantalla
 nocturna y el teléfono enchufado.</p>
 <p>Activa <strong>Despiértame igualmente</strong> en los ajustes y permite las notificaciones,
 para que suene un respaldo si la app acaba cerrándose.</p>
@@ -855,8 +855,8 @@ PAGES["uk"] = {
 
 <h2>Сповіщення</h2>
 <p>Hushwake просить дозвіл на сповіщення й використовує його рівно для однієї речі —
-<strong>запасного будильника</strong>. Оскільки iOS не дозволяє жодному застосунку вібрувати
-з фону, Hushwake планує кілька локальних сповіщень на час вашого підйому — на випадок, якщо
+<strong>запасного будильника</strong>. Оскільки iOS вимикає тактильний рушій застосунку, щойно той
+залишає екран, Hushwake планує кілька локальних сповіщень на час вашого підйому — на випадок, якщо
 застосунок закрито й хвиля зіграти не зможе.</p>
 <p>Ці сповіщення створюються і показуються <strong>повністю на вашому iPhone</strong>. Ні
 push-сервера, ні токена пристрою, і нічого з цього не потрапляє ні до нас, ні до когось іще.
@@ -905,7 +905,7 @@ push-сервера, ні токена пристрою, і нічого з ць
 
 <h2>Як працює будильник — прочитайте</h2>
 <p>Хвиля пробудження грає <strong>лише доки Hushwake відкритий на екрані</strong>. Це не дефект
-і не те, що ми можемо виправити: iOS не дозволяє жодному застосунку створювати вібрацію з фону.
+і не те, що ми можемо виправити: iOS вимикає тактильний рушій застосунку, щойно той залишає екран.
 Hushwake побудований саме навколо цього — він лишається відкритим як притемнений приліжковий
 годинник, і саме це дозволяє йому грати справжню, задану застосунком хвилю, а не типове
 дзижчання.</p>
@@ -966,7 +966,7 @@ Hushwake побудований саме навколо цього — він л
 
 <h2>Будильник не спрацював</h2>
 <p>Майже завжди це означає, що застосунок не був на екрані. Хвиля грає лише доки Hushwake
-відкритий — iOS не дозволяє вібрацію з фону жодному застосунку. Лишайте застосунок на нічному
+відкритий — iOS вимикає тактильний рушій застосунку, щойно той залишає екран. Лишайте застосунок на нічному
 екрані, а телефон на зарядці.</p>
 <p>Увімкніть <strong>Розбудити попри все</strong> в налаштуваннях і дозвольте сповіщення, щоб
 підстраховка пролунала, якщо застосунок усе ж закриють.</p>
@@ -1040,8 +1040,8 @@ PAGES["ru"] = {
 
 <h2>Уведомления</h2>
 <p>Hushwake просит разрешение на уведомления и использует его ровно для одного —
-<strong>запасного будильника</strong>. Поскольку iOS не разрешает ни одному приложению вибрировать
-из фона, Hushwake ставит несколько локальных уведомлений на время вашего подъёма — на случай,
+<strong>запасного будильника</strong>. Поскольку iOS выключает тактильный движок приложения, как только
+оно уходит с экрана, Hushwake ставит несколько локальных уведомлений на время вашего подъёма — на случай,
 если приложение закрыто и волна сыграть не сможет.</p>
 <p>Эти уведомления создаются и показываются <strong>целиком на вашем iPhone</strong>. Ни
 push-сервера, ни токена устройства, и ничто из этого не попадает ни к нам, ни к кому-либо ещё.
@@ -1091,8 +1091,8 @@ push-сервера, ни токена устройства, и ничто из 
 
 <h2>Как работает будильник — прочитайте</h2>
 <p>Волна пробуждения играет <strong>только пока Hushwake открыт на экране</strong>. Это не дефект
-и не то, что мы можем исправить: iOS не разрешает ни одному приложению создавать вибрацию из
-фона. Hushwake построен именно вокруг этого — он остаётся открытым как приглушённые прикроватные
+и не то, что мы можем исправить: iOS выключает тактильный движок приложения, как только оно уходит
+с экрана. Hushwake построен именно вокруг этого — он остаётся открытым как приглушённые прикроватные
 часы, и ровно это позволяет ему играть настоящую, заданную приложением волну, а не типовое
 жужжание.</p>
 <p>Поэтому: поставьте телефон на зарядку, оставьте Hushwake открытым и положите так, чтобы
@@ -1152,7 +1152,7 @@ push-сервера, ни токена устройства, и ничто из 
 
 <h2>Будильник не сработал</h2>
 <p>Почти всегда это значит, что приложение не было на экране. Волна играет только пока Hushwake
-открыт — iOS не разрешает вибрацию из фона ни одному приложению. Оставляйте приложение на ночном
+открыт — iOS выключает тактильный движок приложения, как только оно уходит с экрана. Оставляйте приложение на ночном
 экране, а телефон на зарядке.</p>
 <p>Включите <strong>Разбудить в любом случае</strong> в настройках и разрешите уведомления, чтобы
 подстраховка прозвучала, если приложение всё же закроется.</p>
