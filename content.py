@@ -74,14 +74,38 @@ PAGES = {}
 
 PAGES["en"] = {
     "index": """<div class="lede">
-  <p><strong>Hushwake has no accounts, no servers and no analytics.</strong> It makes no network
-  requests at all. The few things it remembers — your settings and your wake-up history — are
-  stored on your iPhone and never leave it.</p>
+  <p><strong>Hushwake has no accounts, no servers and no analytics.</strong> Your settings and your
+  wake-up history stay on your iPhone and never leave it. The free version shows ads, and that
+  banner is the only part of the app that goes online — what the advertising network receives is
+  set out below.</p>
 </div>
 
 <h2>What we collect</h2>
-<p>Nothing. Hushwake contains no analytics SDKs, no advertising, no crash reporting and no
-tracking of any kind. There is no code in the app that sends anything anywhere.</p>
+<p><strong>We collect nothing.</strong> There are no accounts, no servers of ours, no analytics
+and no crash reporting. Nothing you do in Hushwake is sent to us, because there is nowhere for it
+to go.</p>
+<p>The free version does show advertising, and the advertising network collects data of its own.
+That is a different thing from us collecting it, and it is set out in the next section.</p>
+
+<h2>Advertising</h2>
+<p>The free version of Hushwake shows a banner supplied by <strong>Google AdMob</strong>. That
+banner is the one part of the app that goes online.</p>
+<p>To fill it, Google receives from your device: your <strong>advertising identifier</strong>
+(only if you allow tracking — see below), your IP address, which gives an approximate location
+no finer than a city, your device model and iOS version, and whether the ad was shown or
+tapped. None of this reaches us — it goes to Google, which acts as an independent controller of
+that data. What Google does with it is described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses
+information from sites or apps that use our services</a>.</p>
+<p><strong>Buying a subscription or the one-time purchase removes advertising completely.</strong> For you the ad SDK is
+never started at all: no banner, no requests, no identifiers. Not a hidden banner with the
+tracking still running.</p>
+<p><strong>Tracking is your choice.</strong> Soon after you first open the app, iOS asks whether
+Hushwake may track you. Say no and ads still appear, but they are not personalised and your
+advertising identifier is not available to Google. You can change the answer at any time in
+iOS Settings → Privacy &amp; Security → Tracking.</p>
+<p><strong>In the EEA, the UK and Switzerland</strong> a consent form from Google appears before
+any ad is requested, and you decide there what you agree to. To change your mind later, open
+Settings inside Hushwake and tap <em>Privacy settings</em> — the same form opens again.</p>
 
 <h2>What stays on your device</h2>
 <ul>
@@ -114,28 +138,32 @@ sleep</strong> — it cannot see you sleeping and does not try to.</p>
 recorded and nothing is streamed.</p>
 
 <h2>Purchases</h2>
-<p>The one-time purchase is handled entirely by Apple through the App Store. Hushwake never sees
-your payment details. We receive only the signed receipt Apple issues on your device, and we use
-it for one thing: to know whether the other waves are unlocked. It is verified on your iPhone
-and is not sent to us.</p>
+<p>Subscriptions and the one-time purchase are handled entirely by Apple through the App Store.
+Hushwake never sees your payment details. We receive only the signed receipt Apple issues on your
+device, and we use it for one thing: to know whether the full version is unlocked. It is verified
+on your iPhone and is not sent to us.</p>
 
 <h2>Children</h2>
-<p>Hushwake is rated 4+ and is suitable for all ages. It shows no advertising, contains no
-third-party content, has no links out of the app except to these pages, and collects no
-information from anyone. The only purchase is a single optional one, made through Apple with
+<p>Hushwake is rated 4+ and is suitable for all ages, but it is not aimed at children and we do not
+knowingly collect information from anyone. The free version shows advertising supplied by
+Google, and it is the only third-party content in the app. If you are setting Hushwake up for a
+child, a subscription or the one-time purchase removes advertising entirely. Purchases go through Apple, with
 whatever parental controls you have set.</p>
 
 <h2>Your rights</h2>
-<p>Because no personal data ever reaches us, there is nothing for us to export, correct or
-delete on your behalf. Deleting the app removes everything Hushwake stored.</p>
+<p>No personal data ever reaches us, so there is nothing for us to export, correct or delete on
+your behalf. Deleting the app removes everything Hushwake stored.</p>
+<p>The advertising network is a separate matter, and the controls are yours: turn tracking off
+in iOS Settings, change your consent inside the app if you are in the EEA, the UK or
+Switzerland, or remove advertising altogether with a subscription or the one-time purchase. Requests about data
+Google holds go to Google — the link is in the section above.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the date at the top of this page changes with it. Material changes
 will also be noted in the app's release notes.</p>
 
 <h2>Contact</h2>
-<p>Questions about privacy: <a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>
-""",
+<p>Questions about privacy: <a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>""",
 
     "terms": """<div class="lede">
   <p><strong>Hushwake is a clock.</strong> It is not a medical device, not a treatment and not a
@@ -170,13 +198,25 @@ machinery. If the vibration is too strong or too weak, it can be adjusted in Set
 optional tone can be turned on if vibration alone is not enough for you. Keep the volume moderate
 if you use the tone with headphones.</p>
 
-<h2>Purchases</h2>
-<p>Hushwake is free to download and includes two full waves, with no ads and no time limits.
-Unlocking the other waves is optional and costs a <strong>single one-time payment</strong>. It is
-not a subscription: nothing renews and nothing is billed again.</p>
-<p>The price is shown in the app in your local currency before you confirm anything. Payment is
-charged to your Apple ID at confirmation of purchase. The purchase is tied to your Apple ID and
-can be restored on your other devices from the purchase screen.</p>
+<h2>Subscriptions and purchases</h2>
+<p>Hushwake is free to download. Two waves are included in full, at no cost, and the free
+version shows advertising. Unlocking the other waves — and removing the ads — is optional and
+offered in three forms:</p>
+<ul>
+  <li><strong>Monthly</strong> — an auto-renewing subscription billed every month.</li>
+  <li><strong>Yearly</strong> — an auto-renewing subscription billed every twelve months, and
+  offered with a free trial period the first time you subscribe.</li>
+  <li><strong>Lifetime</strong> — a single purchase, not a subscription, with no renewal.</li>
+</ul>
+<p>Prices are shown in the app in your local currency before you confirm anything. Payment is
+charged to your Apple ID at confirmation of purchase.</p>
+<p>Auto-renewing subscriptions renew automatically unless auto-renew is turned off at least
+24 hours before the end of the current period. Your Apple ID is charged for renewal within
+24 hours before the end of the period. You can manage or cancel a subscription in your Apple
+ID account settings after purchase; cancelling stops the next renewal and leaves your current
+period running to its end.</p>
+<p>If a free trial is offered, any unused part of it is forfeited when you buy a subscription
+covering the same features.</p>
 
 <h2>Refunds</h2>
 <p>Purchases are processed by Apple, so refunds are handled by Apple under the terms of the
@@ -262,14 +302,40 @@ would be nothing left of the app. So it is iPhone only, on purpose.</p>
 
 PAGES["de"] = {
     "index": """<div class="lede">
-  <p><strong>Hushwake hat keine Konten, keine Server und keine Analyse.</strong> Die App stellt
-  überhaupt keine Netzwerkanfragen. Das Wenige, was sie sich merkt — deine Einstellungen und
-  deinen Weckverlauf — liegt auf deinem iPhone und verlässt es nie.</p>
+  <p><strong>Hushwake hat keine Konten, keine Server und keine Analyse.</strong> Deine
+  Einstellungen und dein Weckverlauf bleiben auf deinem iPhone und verlassen es nie. Die
+  kostenlose Version zeigt Werbung, und dieses Banner ist der einzige Teil der App, der ins Netz
+  geht — was das Werbenetzwerk erhält, steht weiter unten.</p>
 </div>
 
 <h2>Was wir erheben</h2>
-<p>Nichts. Hushwake enthält keine Analyse-SDKs, keine Werbung, kein Crash-Reporting und kein
-Tracking jeglicher Art. Es gibt im Code keine Stelle, die irgendetwas irgendwohin sendet.</p>
+<p><strong>Wir erheben nichts.</strong> Es gibt keine Konten, keine Server von uns, keine Analyse
+und keine Absturzberichte. Nichts von dem, was du in Hushwake tust, erreicht uns — es gibt keinen
+Weg dorthin.</p>
+<p>Die kostenlose Version zeigt allerdings Werbung, und das Werbenetzwerk erhebt eigene Daten.
+Das ist etwas anderes, als dass wir sie erheben, und im nächsten Abschnitt steht, worum es
+geht.</p>
+
+<h2>Werbung</h2>
+<p>Die kostenlose Version von Hushwake zeigt ein Banner von <strong>Google AdMob</strong>. Dieses
+Banner ist der einzige Teil der App, der ins Netz geht.</p>
+<p>Um es zu füllen, erhält Google von deinem Gerät: deine <strong>Werbe-ID</strong> (nur wenn du
+Tracking erlaubst — siehe unten), deine IP-Adresse, aus der sich ein ungefährer Standort
+höchstens auf Stadtebene ergibt, dein Gerätemodell und deine iOS-Version sowie ob die Anzeige
+gesehen oder angetippt wurde. Nichts davon erreicht uns: es geht an Google, das für diese Daten
+eigenverantwortlich ist. Was Google damit macht, steht in <a href="https://policies.google.com/technologies/partner-sites">Wie Google Daten
+verwendet, wenn du Websites oder Apps unserer Partner nutzt</a>.</p>
+<p><strong>Mit einem Abo oder dem Einmalkauf verschwindet die Werbung vollständig.</strong> Für dich
+wird das Werbe-SDK gar nicht erst gestartet: kein Banner, keine Anfragen, keine Kennungen. Kein
+verstecktes Banner, hinter dem das Tracking weiterläuft.</p>
+<p><strong>Tracking ist deine Entscheidung.</strong> Kurz nach dem ersten Start fragt iOS, ob
+Hushwake dich tracken darf. Sagst du nein, erscheint Werbung weiterhin, aber unpersonalisiert, und
+deine Werbe-ID steht Google nicht zur Verfügung. Du kannst die Antwort jederzeit ändern:
+iOS-Einstellungen → Datenschutz &amp; Sicherheit → Tracking.</p>
+<p><strong>Im EWR, im Vereinigten Königreich und in der Schweiz</strong> erscheint vor der ersten
+Anzeige ein Einwilligungsdialog von Google, in dem du entscheidest. Willst du es dir später
+anders überlegen, öffne die Einstellungen in Hushwake und tippe auf
+<em>Datenschutzeinstellungen</em> — derselbe Dialog erscheint erneut.</p>
 
 <h2>Was auf deinem Gerät bleibt</h2>
 <ul>
@@ -302,29 +368,33 @@ deinen Schlaf nicht</strong>: sie kann dich nicht schlafen sehen und versucht es
 aufgenommen und nichts wird gestreamt.</p>
 
 <h2>Käufe</h2>
-<p>Der einmalige Kauf läuft vollständig über Apple und den App Store. Hushwake sieht deine
-Zahlungsdaten nie. Wir erhalten nur den signierten Beleg, den Apple auf deinem Gerät ausstellt,
-und nutzen ihn für eine einzige Frage: ob die übrigen Wellen freigeschaltet sind. Er wird auf
-deinem iPhone geprüft und nicht an uns gesendet.</p>
+<p>Abonnements und der Einmalkauf laufen vollständig über Apple und den App Store. Hushwake sieht
+deine Zahlungsdaten nie. Wir erhalten nur den signierten Beleg, den Apple auf deinem Gerät
+ausstellt, und nutzen ihn für genau eine Sache: zu wissen, ob die Vollversion freigeschaltet ist.
+Geprüft wird er auf deinem iPhone, zu uns geht er nicht.</p>
 
 <h2>Kinder</h2>
-<p>Hushwake ist ab 4 Jahren freigegeben und für jedes Alter geeignet. Keine Werbung, keine
-Inhalte Dritter, keine Links aus der App heraus außer auf diese Seiten, und es werden von
-niemandem Daten erhoben. Der einzige Kauf ist ein einmaliger, optionaler, über Apple und die von
-dir gesetzten Kindersicherungen.</p>
+<p>Hushwake ist ab 4 Jahren freigegeben und für jedes Alter geeignet, richtet sich aber nicht an
+Kinder, und wissentlich erheben wir von niemandem Daten. Die kostenlose Version zeigt Werbung
+von Google — der einzige fremde Inhalt in der App. Richtest du Hushwake für ein Kind ein, entfernt ein Abo oder der Einmalkauf die Werbung vollständig. Käufe laufen über Apple, mit den
+Kindersicherungen, die du eingestellt hast.</p>
 
 <h2>Deine Rechte</h2>
-<p>Da uns nie personenbezogene Daten erreichen, gibt es für uns nichts zu exportieren, zu
-berichtigen oder für dich zu löschen. Mit dem Löschen der App verschwindet alles, was Hushwake
+<p>Uns erreichen keine personenbezogenen Daten, also gibt es für uns nichts zu exportieren, zu
+berichtigen oder für dich zu löschen. Die App zu löschen entfernt alles, was Hushwake
 gespeichert hat.</p>
+<p>Das Werbenetzwerk ist eine eigene Sache, und die Regler liegen bei dir: Tracking in den
+iOS-Einstellungen abschalten, im EWR, im Vereinigten Königreich und in der Schweiz die
+Einwilligung in der App ändern, oder die Werbung mit einem Abo oder dem Einmalkauf ganz entfernen.
+Anfragen zu Daten, die bei Google liegen, gehen an Google — der Link steht im Abschnitt
+darüber.</p>
 
 <h2>Änderungen</h2>
 <p>Ändert sich diese Erklärung, ändert sich das Datum oben mit. Wesentliche Änderungen stehen
 zusätzlich in den Versionshinweisen der App.</p>
 
 <h2>Kontakt</h2>
-<p>Fragen zum Datenschutz: <a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>
-""",
+<p>Fragen zum Datenschutz: <a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>""",
 
     "terms": """<div class="lede">
   <p><strong>Hushwake ist eine Uhr.</strong> Kein Medizinprodukt, keine Behandlung und kein
@@ -358,13 +428,25 @@ beim Bedienen von Maschinen. Ist die Vibration zu stark oder zu schwach, lässt 
 Einstellungen anpassen; reicht sie dir allein nicht, kannst du den leisen Ton dazuschalten. Halte
 die Lautstärke moderat, besonders mit Kopfhörern.</p>
 
-<h2>Käufe</h2>
-<p>Hushwake ist kostenlos und enthält zwei vollständige Wellen, ohne Werbung und ohne
-Zeitlimit. Die übrigen Wellen freizuschalten ist optional und kostet eine <strong>einmalige
-Zahlung</strong>. Kein Abo: nichts verlängert sich, nichts wird erneut abgebucht.</p>
-<p>Der Preis wird in der App in deiner Währung angezeigt, bevor du irgendetwas bestätigst. Die
-Abbuchung erfolgt bei Kaufbestätigung über deine Apple-ID. Der Kauf hängt an deiner Apple-ID und
-lässt sich auf deinen anderen Geräten über den Kaufbildschirm wiederherstellen.</p>
+<h2>Abos und Käufe</h2>
+<p>Hushwake ist kostenlos. Zwei Wellen sind vollständig enthalten, und die kostenlose Version
+zeigt Werbung. Die übrigen Wellen freizuschalten — und die Werbung zu entfernen — ist optional
+und wird in drei Formen angeboten:</p>
+<ul>
+  <li><strong>Monatlich</strong> — ein automatisch verlängertes Abo mit monatlicher Abrechnung.</li>
+  <li><strong>Jährlich</strong> — ein automatisch verlängertes Abo mit Abrechnung alle zwölf
+  Monate, beim ersten Abschluss mit kostenlosem Testzeitraum.</li>
+  <li><strong>Einmalig</strong> — ein einzelner Kauf, kein Abo, keine Verlängerung.</li>
+</ul>
+<p>Die Preise siehst du in der App in deiner Währung, bevor du etwas bestätigst. Abgerechnet
+wird über deine Apple-ID bei Bestätigung des Kaufs.</p>
+<p>Automatisch verlängerte Abos verlängern sich von selbst, sofern die automatische
+Verlängerung nicht spätestens 24 Stunden vor Ablauf des laufenden Zeitraums ausgeschaltet
+wird. Deine Apple-ID wird innerhalb von 24 Stunden vor Ablauf belastet. Verwalten und kündigen
+kannst du das Abo nach dem Kauf in den Einstellungen deiner Apple-ID; eine Kündigung stoppt
+die nächste Verlängerung und lässt den laufenden Zeitraum zu Ende gehen.</p>
+<p>Wird ein kostenloser Testzeitraum angeboten, verfällt sein ungenutzter Teil, sobald du ein
+Abo abschließt, das dieselben Funktionen abdeckt.</p>
 
 <h2>Erstattungen</h2>
 <p>Käufe werden von Apple abgewickelt, Erstattungen daher ebenfalls von Apple nach den
@@ -452,15 +534,41 @@ sie bliebe von der App nichts übrig. Deshalb: nur iPhone, mit Absicht.</p>
 
 PAGES["fr"] = {
     "index": """<div class="lede">
-  <p><strong>Hushwake n’a ni comptes, ni serveurs, ni analyse.</strong> L’app ne fait aucune
-  requête réseau. Le peu qu’elle retient — vos réglages et votre historique de réveils — reste
-  sur votre iPhone et n’en sort jamais.</p>
+  <p><strong>Hushwake n’a ni comptes, ni serveurs, ni analyse d’audience.</strong> Vos réglages et
+  votre historique de réveils restent sur votre iPhone et n’en sortent jamais. La version
+  gratuite affiche des publicités, et cette bannière est la seule partie de l’app qui se
+  connecte — ce que reçoit la régie est détaillé plus bas.</p>
 </div>
 
 <h2>Ce que nous collectons</h2>
-<p>Rien. Hushwake ne contient aucun SDK d’analyse, aucune publicité, aucun rapport de plantage
-et aucun pistage d’aucune sorte. Il n’y a dans le code aucun endroit qui envoie quoi que ce soit
-où que ce soit.</p>
+<p><strong>Nous ne collectons rien.</strong> Pas de comptes, pas de serveurs à nous, pas
+d’analyse d’audience, pas de rapports de plantage. Rien de ce que vous faites dans Hushwake ne nous
+parvient : il n’y a nulle part où cela pourrait aller.</p>
+<p>La version gratuite affiche en revanche de la publicité, et la régie publicitaire collecte
+ses propres données. C’est autre chose que nous les collections, et la section suivante
+explique quoi.</p>
+
+<h2>Publicité</h2>
+<p>La version gratuite de Hushwake affiche une bannière fournie par <strong>Google AdMob</strong>.
+Cette bannière est la seule partie de l’app qui se connecte à Internet.</p>
+<p>Pour la remplir, Google reçoit de votre appareil : votre <strong>identifiant
+publicitaire</strong> (uniquement si vous autorisez le suivi — voir plus bas), votre adresse IP,
+qui donne une localisation approximative pas plus précise qu’une ville, le modèle de votre
+appareil et votre version d’iOS, et le fait que l’annonce ait été vue ou touchée. Rien de tout
+cela ne nous parvient : cela va à Google, responsable de traitement indépendant pour ces
+données. Ce que Google en fait est décrit dans <a href="https://policies.google.com/technologies/partner-sites">Comment Google utilise les
+informations issues de sites ou d’applications qui utilisent nos services</a>.</p>
+<p><strong>Un abonnement ou l’achat unique supprime complètement la publicité.</strong> Pour
+vous, le SDK publicitaire n’est même pas lancé : pas de bannière, pas de requêtes, pas
+d’identifiants. Pas une bannière masquée pendant que le suivi continue.</p>
+<p><strong>Le suivi est votre choix.</strong> Peu après la première ouverture, iOS demande si
+Hushwake peut vous suivre. Si vous refusez, les publicités restent, mais elles ne sont pas
+personnalisées et votre identifiant publicitaire n’est pas accessible à Google. Vous pouvez
+changer d’avis à tout moment : Réglages iOS → Confidentialité et sécurité → Suivi.</p>
+<p><strong>Dans l’EEE, au Royaume-Uni et en Suisse</strong>, un formulaire de consentement de
+Google apparaît avant toute demande de publicité, et c’est là que vous décidez. Pour revenir sur
+ce choix plus tard, ouvrez les réglages de Hushwake et touchez <em>Paramètres de
+confidentialité</em> : le même formulaire s’ouvre à nouveau.</p>
 
 <h2>Ce qui reste sur votre appareil</h2>
 <ul>
@@ -494,20 +602,26 @@ n’essaie pas.</p>
 rien n’est enregistré, rien n’est diffusé.</p>
 
 <h2>Achats</h2>
-<p>L’achat unique est entièrement géré par Apple via l’App Store. Hushwake ne voit jamais vos
-informations de paiement. Nous recevons uniquement le reçu signé qu’Apple émet sur votre
-appareil, et il ne sert qu’à une chose : savoir si les autres vagues sont débloquées. Il est
-vérifié sur votre iPhone et ne nous est pas transmis.</p>
+<p>Les abonnements et l’achat unique passent entièrement par Apple et l’App Store. Hushwake ne voit
+jamais vos informations de paiement. Nous ne recevons que le reçu signé qu’Apple émet sur votre
+appareil, et nous nous en servons pour une seule chose : savoir si la version complète est
+débloquée. Il est vérifié sur votre iPhone et ne nous est pas envoyé.</p>
 
 <h2>Enfants</h2>
-<p>Hushwake est classée 4+ et convient à tout âge. Aucune publicité, aucun contenu tiers, aucun
-lien sortant hormis vers ces pages, et aucune information collectée sur qui que ce soit. Le seul
-achat est unique et facultatif, effectué via Apple avec les contrôles parentaux que vous avez
-définis.</p>
+<p>Hushwake est classée 4+ et convient à tous les âges, mais elle ne vise pas les enfants et nous ne
+collectons sciemment d’informations sur personne. La version gratuite affiche de la publicité
+fournie par Google : c’est le seul contenu tiers de l’app. Si vous installez Hushwake pour un
+enfant, un abonnement ou l’achat unique supprime entièrement la publicité. Les achats passent
+par Apple, avec les contrôles parentaux que vous avez définis.</p>
 
 <h2>Vos droits</h2>
-<p>Comme aucune donnée personnelle ne nous parvient, nous n’avons rien à exporter, corriger ou
+<p>Aucune donnée personnelle ne nous parvient : nous n’avons donc rien à exporter, corriger ou
 supprimer pour vous. Supprimer l’app efface tout ce que Hushwake avait enregistré.</p>
+<p>La régie publicitaire est une autre affaire, et les commandes sont entre vos mains :
+désactivez le suivi dans les Réglages iOS, modifiez votre consentement dans l’app si vous êtes
+dans l’EEE, au Royaume-Uni ou en Suisse, ou supprimez la publicité pour de bon avec un
+abonnement ou l’achat unique. Les demandes concernant les données détenues par Google
+s’adressent à Google — le lien est dans la section ci-dessus.</p>
 
 <h2>Modifications</h2>
 <p>Si cette politique change, la date en haut de page change avec elle. Les changements
@@ -515,8 +629,7 @@ importants figurent aussi dans les notes de version.</p>
 
 <h2>Contact</h2>
 <p>Questions sur la confidentialité :
-<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>
-""",
+<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>""",
 
     "terms": """<div class="lede">
   <p><strong>Hushwake est une horloge.</strong> Ni dispositif médical, ni traitement, ni suivi du
@@ -550,14 +663,25 @@ ou en manœuvrant une machine. Si la vibration est trop forte ou trop faible, el
 les réglages ; si elle ne suffit pas seule, vous pouvez activer le son discret. Gardez un volume
 modéré, surtout au casque.</p>
 
-<h2>Achats</h2>
-<p>Hushwake est gratuite au téléchargement et comprend deux vagues complètes, sans publicité ni
-limite de temps. Débloquer les autres vagues est facultatif et coûte un <strong>paiement
-unique</strong>. Ce n’est pas un abonnement : rien ne se renouvelle, rien n’est facturé à
-nouveau.</p>
-<p>Le prix s’affiche dans l’app, dans votre devise, avant toute confirmation. Le paiement est
-prélevé sur votre identifiant Apple à la confirmation. L’achat est lié à votre identifiant Apple
-et se restaure sur vos autres appareils depuis l’écran d’achat.</p>
+<h2>Abonnements et achats</h2>
+<p>Hushwake est gratuite au téléchargement. Deux vagues sont incluses en entier, et la version
+gratuite affiche de la publicité. Débloquer les autres vagues — et supprimer la publicité — est
+facultatif et proposé sous trois formes :</p>
+<ul>
+  <li><strong>Mensuel</strong> — un abonnement reconduit automatiquement, facturé chaque mois.</li>
+  <li><strong>Annuel</strong> — un abonnement reconduit automatiquement, facturé tous les douze
+  mois, avec une période d’essai gratuite au premier abonnement.</li>
+  <li><strong>Achat unique</strong> — un seul paiement, pas un abonnement, sans reconduction.</li>
+</ul>
+<p>Les prix s’affichent dans l’app dans votre devise avant toute confirmation. Le paiement est
+débité sur votre compte Apple à la confirmation de l’achat.</p>
+<p>Les abonnements se reconduisent automatiquement sauf si la reconduction est désactivée au
+moins 24 heures avant la fin de la période en cours. Votre compte Apple est débité dans les 24
+heures précédant la fin de la période. Vous pouvez gérer ou résilier votre abonnement après
+l’achat dans les réglages de votre compte Apple ; résilier arrête la reconduction suivante et
+laisse la période en cours aller à son terme.</p>
+<p>Si une période d’essai gratuite est proposée, sa partie non utilisée est perdue dès que vous
+souscrivez un abonnement couvrant les mêmes fonctions.</p>
 
 <h2>Remboursements</h2>
 <p>Les achats sont traités par Apple, les remboursements aussi, selon les conditions de l’App
@@ -648,14 +772,39 @@ Sans lui, il ne resterait rien de l’app. Donc iPhone uniquement, volontairemen
 
 PAGES["es"] = {
     "index": """<div class="lede">
-  <p><strong>Hushwake no tiene cuentas, ni servidores, ni analítica.</strong> No hace ninguna
-  petición de red. Lo poco que recuerda — tus ajustes y tu historial de despertares — se guarda
-  en tu iPhone y nunca sale de ahí.</p>
+  <p><strong>Hushwake no tiene cuentas, ni servidores, ni analíticas.</strong> Tus ajustes y tu
+  historial de despertares se quedan en tu iPhone y nunca salen de ahí. La versión gratuita
+  muestra anuncios, y ese banner es la única parte de la app que sale a la red: lo que recibe la
+  red publicitaria se detalla más abajo.</p>
 </div>
 
 <h2>Qué recogemos</h2>
-<p>Nada. Hushwake no incluye SDK de analítica, ni publicidad, ni informes de fallos, ni
-seguimiento de ningún tipo. No hay en el código ni un punto que envíe nada a ninguna parte.</p>
+<p><strong>No recopilamos nada.</strong> No hay cuentas, ni servidores nuestros, ni analíticas,
+ni informes de fallos. Nada de lo que haces en Hushwake nos llega, porque no tiene adónde ir.</p>
+<p>La versión gratuita sí muestra publicidad, y la red publicitaria recopila datos propios. Eso
+es distinto de que los recopilemos nosotros, y la siguiente sección explica qué ocurre.</p>
+
+<h2>Publicidad</h2>
+<p>La versión gratuita de Hushwake muestra un banner servido por <strong>Google AdMob</strong>. Ese
+banner es la única parte de la app que sale a la red.</p>
+<p>Para llenarlo, Google recibe de tu dispositivo: tu <strong>identificador de
+publicidad</strong> (solo si permites el seguimiento — mira más abajo), tu dirección IP, que da
+una ubicación aproximada no más precisa que una ciudad, el modelo de tu dispositivo y la
+versión de iOS, y si el anuncio se vio o se tocó. Nada de esto nos llega: va a Google, que
+actúa como responsable independiente de esos datos. Lo que Google hace con ellos se explica en
+<a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google la información de sitios o aplicaciones que utilizan nuestros
+servicios</a>.</p>
+<p><strong>Una suscripción o la compra única elimina la publicidad por completo.</strong> En tu caso el SDK
+de anuncios ni siquiera se inicia: sin banner, sin peticiones, sin identificadores. No es un
+banner escondido con el seguimiento todavía en marcha.</p>
+<p><strong>El seguimiento lo decides tú.</strong> Poco después de abrir la app por primera vez,
+iOS pregunta si Hushwake puede seguirte. Si dices que no, los anuncios siguen apareciendo, pero no
+son personalizados y tu identificador de publicidad no queda disponible para Google. Puedes
+cambiar la respuesta cuando quieras en Ajustes de iOS → Privacidad y seguridad →
+Seguimiento.</p>
+<p><strong>En el EEE, el Reino Unido y Suiza</strong> aparece un formulario de consentimiento de
+Google antes de pedir cualquier anuncio, y ahí decides tú. Para cambiar de idea más tarde, abre
+los ajustes de Hushwake y toca <em>Ajustes de privacidad</em>: se abre el mismo formulario.</p>
 
 <h2>Qué se queda en tu dispositivo</h2>
 <ul>
@@ -688,20 +837,24 @@ no puede verte dormir y no lo intenta.</p>
 hay nada grabado ni nada en streaming.</p>
 
 <h2>Compras</h2>
-<p>La compra única la gestiona Apple por completo a través del App Store. Hushwake nunca ve tus
-datos de pago. Solo recibimos el recibo firmado que Apple emite en tu dispositivo, y sirve para
-una única cosa: saber si las demás olas están desbloqueadas. Se verifica en tu iPhone y no se nos
-envía.</p>
+<p>Las suscripciones y la compra única las gestiona Apple por completo a través de la App Store.
+Hushwake nunca ve tus datos de pago. Solo recibimos el recibo firmado que Apple emite en tu
+dispositivo, y lo usamos para una cosa: saber si la versión completa está desbloqueada. Se verifica
+en tu iPhone y no se nos envía.</p>
 
 <h2>Menores</h2>
-<p>Hushwake tiene clasificación 4+ y es apta para cualquier edad. Sin publicidad, sin contenido
-de terceros, sin enlaces fuera de la app salvo a estas páginas, y sin recoger información de
-nadie. La única compra es única y opcional, hecha a través de Apple con los controles parentales
-que tengas configurados.</p>
+<p>Hushwake tiene clasificación 4+ y sirve para todas las edades, pero no está dirigida a niños y no
+recopilamos a sabiendas información de nadie. La versión gratuita muestra publicidad servida
+por Google, el único contenido de terceros en la app. Si preparas Hushwake para un niño, una suscripción o la compra única elimina la publicidad por completo. Las compras pasan por Apple, con los
+controles parentales que tengas configurados.</p>
 
 <h2>Tus derechos</h2>
-<p>Como ningún dato personal llega hasta nosotros, no hay nada que podamos exportar, corregir o
-eliminar en tu nombre. Eliminar la app borra todo lo que Hushwake había guardado.</p>
+<p>No nos llega ningún dato personal, así que no hay nada que podamos exportar, corregir ni
+borrar en tu nombre. Borrar la app elimina todo lo que Hushwake había guardado.</p>
+<p>La red publicitaria es otra cosa, y los mandos son tuyos: desactiva el seguimiento en los
+Ajustes de iOS, cambia tu consentimiento dentro de la app si estás en el EEE, el Reino Unido o
+Suiza, o quita la publicidad del todo con una suscripción o la compra única. Las solicitudes sobre datos que
+tiene Google se dirigen a Google: el enlace está en la sección anterior.</p>
 
 <h2>Cambios</h2>
 <p>Si esta política cambia, la fecha de arriba cambia con ella. Los cambios relevantes se indican
@@ -709,8 +862,7 @@ también en las notas de versión.</p>
 
 <h2>Contacto</h2>
 <p>Dudas sobre privacidad:
-<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>
-""",
+<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>""",
 
     "terms": """<div class="lede">
   <p><strong>Hushwake es un reloj.</strong> No es un producto sanitario, ni un tratamiento, ni un
@@ -745,13 +897,24 @@ maquinaria. Si la vibración es demasiado fuerte o demasiado débil, se ajusta e
 por sí sola no te basta, puedes activar el tono discreto. Mantén un volumen moderado, sobre todo
 con auriculares.</p>
 
-<h2>Compras</h2>
-<p>Hushwake es gratis e incluye dos olas completas, sin anuncios ni límites de tiempo.
-Desbloquear las demás es opcional y cuesta un <strong>único pago</strong>. No es una suscripción:
-nada se renueva y nada se vuelve a cobrar.</p>
-<p>El precio se muestra en la app en tu moneda antes de que confirmes nada. El cargo se hace a tu
-ID de Apple al confirmar la compra. La compra queda ligada a tu ID de Apple y se puede restaurar
-en tus otros dispositivos desde la pantalla de compra.</p>
+<h2>Suscripciones y compras</h2>
+<p>Hushwake es gratis. Incluye dos olas completas y la versión gratuita muestra publicidad.
+Desbloquear las demás — y quitar los anuncios — es opcional y se ofrece de tres formas:</p>
+<ul>
+  <li><strong>Mensual</strong> — una suscripción de renovación automática con cargo cada mes.</li>
+  <li><strong>Anual</strong> — una suscripción de renovación automática con cargo cada doce
+  meses, con prueba gratuita la primera vez que te suscribes.</li>
+  <li><strong>Pago único</strong> — una sola compra, no una suscripción, sin renovación.</li>
+</ul>
+<p>Los precios aparecen en la app en tu moneda antes de que confirmes nada. El cargo se hace a
+tu cuenta de Apple al confirmar la compra.</p>
+<p>Las suscripciones con renovación automática se renuevan solas salvo que desactives la
+renovación al menos 24 horas antes de que termine el periodo en curso. El cargo a tu cuenta de
+Apple se hace dentro de las 24 horas previas al fin del periodo. Puedes gestionar o cancelar la
+suscripción tras la compra en los ajustes de tu cuenta de Apple; cancelar detiene la siguiente
+renovación y deja que el periodo en curso llegue a su fin.</p>
+<p>Si se ofrece una prueba gratuita, la parte no usada se pierde en cuanto contratas una
+suscripción que cubra las mismas funciones.</p>
 
 <h2>Reembolsos</h2>
 <p>Las compras las procesa Apple, así que los reembolsos también los gestiona Apple según los
@@ -841,14 +1004,40 @@ Sin él no quedaría nada de la app. Así que solo iPhone, a propósito.</p>
 
 PAGES["uk"] = {
     "index": """<div class="lede">
-  <p><strong>У Hushwake немає ні акаунтів, ні серверів, ні аналітики.</strong> Застосунок узагалі
-  не робить мережевих запитів. Те небагато, що він пам’ятає — ваші налаштування та історію
-  підйомів, — зберігається на вашому iPhone і ніколи його не залишає.</p>
+  <p><strong>У Hushwake немає ані акаунтів, ані серверів, ані аналітики.</strong> Ваші
+  налаштування й історія пробуджень лишаються на вашому iPhone і ніколи його не залишають.
+  Безкоштовна версія показує рекламу, і цей банер — єдина частина застосунку, яка виходить
+  у мережу; що отримує рекламна мережа, написано нижче.</p>
 </div>
 
 <h2>Що ми збираємо</h2>
-<p>Нічого. У Hushwake немає ні SDK аналітики, ні реклами, ні звітів про збої, ні стеження
-будь-якого штибу. У коді немає жодного місця, яке щось кудись надсилає.</p>
+<p><strong>Ми не збираємо нічого.</strong> Немає ані акаунтів, ані наших серверів, ані
+аналітики, ані звітів про збої. Ніщо з того, що ви робите у Hushwake, до нас не потрапляє — йому
+нікуди дітися.</p>
+<p>Проте безкоштовна версія показує рекламу, і рекламна мережа збирає власні дані. Це інше, ніж
+збираємо ми, і наступний розділ пояснює, що саме відбувається.</p>
+
+<h2>Реклама</h2>
+<p>Безкоштовна версія Hushwake показує банер від <strong>Google AdMob</strong>. Цей банер —
+єдина частина застосунку, яка виходить у мережу.</p>
+<p>Щоб його заповнити, Google отримує з вашого пристрою: ваш <strong>рекламний
+ідентифікатор</strong> (лише якщо ви дозволите стеження — дивіться нижче), вашу IP-адресу, з
+якої випливає приблизне місце не точніше за місто, модель пристрою та версію iOS, а також чи
+було оголошення показане й натиснуте. Ніщо з цього до нас не потрапляє: воно йде до Google,
+який є самостійним володільцем цих даних. Що Google із ними робить, описано в <a
+href="https://policies.google.com/technologies/partner-sites">Як Google використовує інформацію із сайтів і застосунків, що користуються нашими
+сервісами</a>.</p>
+<p><strong>Підписка або разова покупка прибирає рекламу цілком.</strong> Для вас рекламний SDK
+навіть не запускається: ні банера, ні запитів, ні ідентифікаторів. Це не прихований банер, за
+яким стеження триває далі.</p>
+<p><strong>Стеження — ваш вибір.</strong> Невдовзі після першого запуску iOS запитує, чи може
+Hushwake стежити за вами. Відмовитеся — реклама залишиться, але неперсоналізована, а рекламний
+ідентифікатор буде недоступний для Google. Відповідь можна змінити будь-коли: Налаштування iOS
+→ Конфіденційність і безпека → Відстеження.</p>
+<p><strong>У ЄЕЗ, Великій Британії та Швейцарії</strong> перед першим запитом реклами
+з’являється форма згоди від Google, і рішення там ухвалюєте ви. Щоб передумати потім, відкрийте
+налаштування Hushwake і натисніть <em>Налаштування приватності</em> — відкриється та сама
+форма.</p>
 
 <h2>Що лишається на вашому пристрої</h2>
 <ul>
@@ -881,19 +1070,25 @@ push-сервера, ні токена пристрою, і нічого з ць
 й нічого не транслюється.</p>
 
 <h2>Покупки</h2>
-<p>Разову покупку повністю опрацьовує Apple через App Store. Hushwake ніколи не бачить ваших
-платіжних даних. Ми отримуємо лише підписаний чек, який Apple видає на вашому пристрої, і
-використовуємо його для однієї речі: дізнатися, чи відкрито решту хвиль. Він перевіряється на
-вашому iPhone і нам не надсилається.</p>
+<p>Підписки та разова покупка повністю проходять через Apple і App Store. Hushwake ніколи не бачить
+ваших платіжних даних. Ми отримуємо лише підписану квитанцію, яку Apple видає на вашому
+пристрої, і використовуємо її для однієї речі: знати, чи відкрито повну версію. Перевіряється
+вона на вашому iPhone і до нас не йде.</p>
 
 <h2>Діти</h2>
-<p>Hushwake має рейтинг 4+ і підходить будь-якому віку. Ні реклами, ні стороннього вмісту, ні
-посилань назовні, крім цих сторінок, і жодних даних ні про кого. Єдина покупка — разова
-й необов’язкова, через Apple і з вашими батьківськими обмеженнями.</p>
+<p>Hushwake має рейтинг 4+ і підходить для будь-якого віку, але він не адресований дітям, і свідомо
+ми не збираємо відомостей ні про кого. Безкоштовна версія показує рекламу від Google — це
+єдиний сторонній вміст у застосунку. Якщо ви налаштовуєте Hushwake для дитини, підписка або разова
+покупка прибирає рекламу цілком. Покупки йдуть через Apple, з тим батьківським контролем, який
+ви встановили.</p>
 
 <h2>Ваші права</h2>
-<p>Оскільки персональні дані до нас не потрапляють, нам нічого експортувати, виправляти чи
-видаляти за вас. Видалення застосунку прибирає все, що Hushwake зберігав.</p>
+<p>Жодні персональні дані до нас не потрапляють, тож нам нічого експортувати, виправляти чи
+видаляти за вас. Видалення застосунку прибирає все, що Hushwake зберіг.</p>
+<p>Рекламна мережа — окрема історія, і важелі у ваших руках: вимкнути стеження в налаштуваннях
+iOS, змінити згоду всередині застосунку, якщо ви в ЄЕЗ, Великій Британії чи Швейцарії, або
+прибрати рекламу зовсім — підпискою чи разовою покупкою. Запити щодо даних, які має Google,
+ідуть до Google — посилання в розділі вище.</p>
 
 <h2>Зміни</h2>
 <p>Якщо ця політика зміниться, дата вгорі сторінки зміниться разом із нею. Про суттєві зміни
@@ -901,8 +1096,7 @@ push-сервера, ні токена пристрою, і нічого з ць
 
 <h2>Контакт</h2>
 <p>Питання про приватність:
-<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>
-""",
+<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>""",
 
     "terms": """<div class="lede">
   <p><strong>Hushwake — це годинник.</strong> Не медичний пристрій, не лікування і не трекер сну.
@@ -936,13 +1130,24 @@ Hushwake побудований саме навколо цього — він л
 самої вібрації замало, можна ввімкнути тихий тон. Тримайте помірну гучність, особливо
 в навушниках.</p>
 
-<h2>Покупки</h2>
-<p>Hushwake безкоштовний і містить дві повноцінні хвилі, без реклами й часових обмежень.
-Відкрити решту — за бажанням, за <strong>один разовий платіж</strong>. Це не підписка: ніщо
-не поновлюється і не списується повторно.</p>
-<p>Ціна показується в застосунку у вашій валюті до будь-якого підтвердження. Кошти списуються
-з вашого Apple ID у момент підтвердження. Покупка прив’язана до Apple ID і відновлюється
-на інших ваших пристроях з екрана покупки.</p>
+<h2>Підписки й покупки</h2>
+<p>Hushwake безкоштовний для завантаження. Дві хвилі доступні повністю, а безкоштовна версія
+показує рекламу. Відкрити решту — і прибрати рекламу — за бажанням, у трьох формах:</p>
+<ul>
+  <li><strong>Щомісячна</strong> — підписка з автоматичним поновленням, оплата щомісяця.</li>
+  <li><strong>Річна</strong> — підписка з автоматичним поновленням, оплата раз на дванадцять
+  місяців, з безкоштовним пробним періодом за першої підписки.</li>
+  <li><strong>Разова покупка</strong> — один платіж, не підписка, без поновлення.</li>
+</ul>
+<p>Ціни показані в застосунку у вашій валюті ще до підтвердження. Оплата списується з вашого
+облікового запису Apple у момент підтвердження покупки.</p>
+<p>Підписки з автоматичним поновленням поновлюються самі, якщо автопоновлення не вимкнути
+щонайменше за 24 години до кінця поточного періоду. Списання з облікового запису Apple
+відбувається протягом 24 годин перед кінцем періоду. Керувати підпискою чи скасувати її можна
+після покупки в налаштуваннях облікового запису Apple; скасування спиняє наступне поновлення,
+а поточний період доходить до кінця.</p>
+<p>Якщо запропоновано безкоштовний пробний період, його невикористана частина згоряє, щойно ви
+оформите підписку на ті самі функції.</p>
 
 <h2>Повернення коштів</h2>
 <p>Покупки опрацьовує Apple, тож і повернення — теж Apple, за умовами App Store, а не нами.
@@ -1028,14 +1233,39 @@ Hushwake побудований саме навколо цього — він л
 
 PAGES["ru"] = {
     "index": """<div class="lede">
-  <p><strong>У Hushwake нет ни аккаунтов, ни серверов, ни аналитики.</strong> Приложение вообще
-  не делает сетевых запросов. То немногое, что оно помнит — ваши настройки и историю подъёмов, —
-  хранится на вашем iPhone и никогда его не покидает.</p>
+  <p><strong>У Hushwake нет ни аккаунтов, ни серверов, ни аналитики.</strong> Ваши настройки и
+  история пробуждений остаются на вашем iPhone и никогда его не покидают. В бесплатной версии
+  есть реклама, и этот баннер — единственная часть приложения, которая выходит в сеть; что
+  получает рекламная сеть, написано ниже.</p>
 </div>
 
 <h2>Что мы собираем</h2>
-<p>Ничего. В Hushwake нет ни SDK аналитики, ни рекламы, ни отчётов о сбоях, ни слежки любого
-рода. В коде нет ни одного места, которое что-либо куда-либо отправляет.</p>
+<p><strong>Мы не собираем ничего.</strong> Нет ни аккаунтов, ни наших серверов, ни аналитики,
+ни отчётов о сбоях. Ничто из того, что вы делаете в Hushwake, до нас не доходит — ему некуда
+деться.</p>
+<p>Но в бесплатной версии есть реклама, и рекламная сеть собирает свои данные. Это другое, чем
+собираем мы, и следующий раздел объясняет, что именно происходит.</p>
+
+<h2>Реклама</h2>
+<p>В бесплатной версии Hushwake внизу стоит баннер от <strong>Google AdMob</strong>. Этот баннер —
+единственная часть приложения, которая выходит в сеть.</p>
+<p>Чтобы его заполнить, Google получает с вашего устройства: ваш <strong>рекламный
+идентификатор</strong> (только если вы разрешите отслеживание — смотрите ниже), ваш IP-адрес,
+из которого следует приблизительное место не точнее города, модель устройства и версию iOS, а
+также было ли объявление показано и нажато. Ничего из этого до нас не доходит: это уходит к
+Google, который распоряжается такими данными самостоятельно. Что Google с ними делает, описано
+в <a href="https://policies.google.com/technologies/partner-sites">Как Google использует информацию с сайтов и приложений, которые используют
+наши сервисы</a>.</p>
+<p><strong>Подписка или разовая покупка убирает рекламу совсем.</strong> Для вас рекламный SDK
+вообще не запускается: ни баннера, ни запросов, ни идентификаторов. Это не спрятанный баннер, за
+которым продолжается слежка.</p>
+<p><strong>Отслеживание — ваш выбор.</strong> Вскоре после первого запуска iOS спрашивает,
+можно ли Hushwake вас отслеживать. Откажетесь — реклама останется, но неперсонализированная, а
+рекламный идентификатор будет недоступен Google. Ответ можно поменять когда угодно: Настройки
+iOS → Конфиденциальность и безопасность → Отслеживание.</p>
+<p><strong>В ЕЭЗ, Великобритании и Швейцарии</strong> перед первым запросом рекламы появляется
+форма согласия от Google, и решение там принимаете вы. Чтобы передумать потом, откройте
+настройки Hushwake и нажмите <em>Настройки конфиденциальности</em> — откроется та же форма.</p>
 
 <h2>Что остаётся на вашем устройстве</h2>
 <ul>
@@ -1068,19 +1298,25 @@ push-сервера, ни токена устройства, и ничто из 
 не записано и ничего не транслируется.</p>
 
 <h2>Покупки</h2>
-<p>Разовую покупку полностью обрабатывает Apple через App Store. Hushwake никогда не видит ваших
-платёжных данных. Мы получаем только подписанный чек, который Apple выдаёт на вашем устройстве,
-и используем его для одного: узнать, открыты ли остальные волны. Он проверяется на вашем iPhone
-и нам не отправляется.</p>
+<p>Подписки и разовая покупка целиком проходят через Apple и App Store. Hushwake никогда не видит
+ваших платёжных данных. Мы получаем только подписанный чек, который Apple выдаёт на вашем
+устройстве, и используем его для одного: знать, открыта ли полная версия. Проверяется он на
+вашем iPhone и к нам не уходит.</p>
 
 <h2>Дети</h2>
-<p>У Hushwake рейтинг 4+, он подходит любому возрасту. Ни рекламы, ни стороннего содержимого,
-ни ссылок наружу, кроме этих страниц, и никаких данных ни о ком. Единственная покупка — разовая
-и необязательная, через Apple и с теми родительскими ограничениями, которые вы настроили.</p>
+<p>Hushwake имеет рейтинг 4+ и подходит для любого возраста, но он не адресован детям, и осознанно
+мы не собираем сведений ни о ком. В бесплатной версии есть реклама от Google — это
+единственное стороннее содержимое в приложении. Если вы настраиваете Hushwake для ребёнка,
+подписка или разовая покупка убирает рекламу целиком. Покупки идут через Apple, с тем
+родительским контролем, который вы настроили.</p>
 
 <h2>Ваши права</h2>
-<p>Поскольку персональные данные до нас не доходят, нам нечего экспортировать, исправлять или
-удалять за вас. Удаление приложения убирает всё, что Hushwake сохранял.</p>
+<p>Никакие персональные данные до нас не доходят, поэтому нам нечего экспортировать,
+исправлять или удалять за вас. Удаление приложения убирает всё, что Hushwake сохранил.</p>
+<p>Рекламная сеть — отдельная история, и рычаги в ваших руках: выключить отслеживание в
+настройках iOS, поменять согласие внутри приложения, если вы в ЕЭЗ, Великобритании или
+Швейцарии, или убрать рекламу совсем — подпиской или разовой покупкой. Запросы о данных,
+которые есть у Google, идут к Google — ссылка в разделе выше.</p>
 
 <h2>Изменения</h2>
 <p>Если эта политика изменится, дата вверху страницы изменится вместе с ней. О существенных
@@ -1088,8 +1324,7 @@ push-сервера, ни токена устройства, и ничто из 
 
 <h2>Контакт</h2>
 <p>Вопросы о конфиденциальности:
-<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>
-""",
+<a href="mailto:sich.io.app@gmail.com">sich.io.app@gmail.com</a></p>""",
 
     "terms": """<div class="lede">
   <p><strong>Hushwake — это часы.</strong> Не медицинский прибор, не лечение и не трекер сна.
@@ -1125,13 +1360,24 @@ push-сервера, ни токена устройства, и ничто из 
 настроить; если одной вибрации мало, можно включить тихий тон. Держите умеренную громкость,
 особенно в наушниках.</p>
 
-<h2>Покупки</h2>
-<p>Hushwake бесплатен и содержит две полноценные волны, без рекламы и без ограничений по времени.
-Открыть остальные — по желанию, за <strong>один разовый платёж</strong>. Это не подписка: ничто
-не продлевается и не списывается повторно.</p>
-<p>Цена показывается в приложении в вашей валюте до любого подтверждения. Средства списываются
-с вашего Apple ID в момент подтверждения покупки. Покупка привязана к Apple ID и восстанавливается
-на других ваших устройствах с экрана покупки.</p>
+<h2>Подписки и покупки</h2>
+<p>Hushwake бесплатен для загрузки. Две волны доступны полностью, а в бесплатной версии есть
+реклама. Открыть остальные — и убрать рекламу — по желанию, в трёх формах:</p>
+<ul>
+  <li><strong>Ежемесячная</strong> — подписка с автопродлением, списание каждый месяц.</li>
+  <li><strong>Ежегодная</strong> — подписка с автопродлением, списание раз в двенадцать
+  месяцев, с бесплатным пробным периодом при первой подписке.</li>
+  <li><strong>Разовая покупка</strong> — один платёж, не подписка, без продления.</li>
+</ul>
+<p>Цены показаны в приложении в вашей валюте ещё до подтверждения. Оплата списывается с вашей
+учётной записи Apple в момент подтверждения покупки.</p>
+<p>Подписки с автопродлением продлеваются сами, если автопродление не отключить не позднее чем
+за 24 часа до конца текущего периода. Списание с учётной записи Apple происходит в течение 24
+часов перед концом периода. Управлять подпиской или отменить её можно после покупки
+в настройках учётной записи Apple; отмена останавливает следующее продление, а текущий период
+доходит до конца.</p>
+<p>Если предложен бесплатный пробный период, его неиспользованная часть сгорает, как только вы
+оформите подписку на те же функции.</p>
 
 <h2>Возврат средств</h2>
 <p>Покупки обрабатывает Apple, поэтому и возвраты — тоже Apple, по условиям App Store, а не нами.

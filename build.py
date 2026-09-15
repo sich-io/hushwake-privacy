@@ -11,7 +11,7 @@ import os
 from content import LANGUAGES, PAGES, UI
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-UPDATED = "12 September 2026"
+UPDATED = "15 September 2026"
 
 # Знак приложения: купол и расходящийся от него звук — то же, что на иконке.
 MARK = """  <div class="mark" aria-hidden="true">
